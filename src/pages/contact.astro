@@ -1,0 +1,45 @@
+---
+import Layout from "../layouts/Layout.astro"
+
+---
+
+<Layout title="Contact Us | Intellisoft">
+    <div>
+        <div class="h-[65vh] md:h-[75vh] flex flex-col gap-12 justify-center items-center bg-[url('https://indglobal.in/wp-content/themes/indglobal/images/contact/contact.jpg')] bg-no-repeat bg-center bg-cover">
+            <div class="p-5">
+                <h3 class="text-5xl mb-5 tracking-wider md:text-6xl lg:text-7xl text-white font-bold text-center leading-[3.6rem] p-2">WE WANT TO TALK TO YOU</h3>
+                <p class="text-white px-6 text-center text-xl font-semibold">IF YOU ARE READY TO SAY GOOD-BYE TO THE COMMON JOB, GET IN TOUCH.</p>
+            </div>
+        </div>
+        <div class="bg-[#f6d839] flex flex-col items-center justify-center text-center py-12" id="form">
+            <h4 class="text-2xl font-semibold mb-3">Let's Work Together</h4>
+            <div class="w-36 h-3 bg-[#000] mb-8"></div>
+            <p class="px-8 mb-5">Send us a message and one of our respresentatives will contact you in one <br> business day</p>
+            <form action="https://api.web3forms.com/submit" method="POST">
+                <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+            
+                <div class="flex flex-col md:flex-row gap-4 mt-5 px-4">
+                    <div class="flex flex-col text-start">
+                        <label class="font-semibold mb-1" for="name">*Name</label>
+                        <input placeholder="Name" class="rounded border-none w-[84vw] md:w-80" type="text" name="name" id="name" required>
+                    </div>
+                    <div class="flex flex-col text-start">
+                        <label class="font-semibold mb-1" for="email">*Email</label>
+                        <input placeholder="Email" class="rounded border-none w-[84vw] md:w-80" type="email" name="email" id="email" required>
+                    </div>
+                </div>
+                <div class="flex flex-col px-4 mt-4">
+                    <label class="font-semibold text-start mb-1" for="message">*Message</label>
+                    <textarea rows="4" class="px-3 py-2 rounded border-none" name="message" id="message" required placeholder="Message"></textarea>
+                </div>
+                <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            
+                <button class="mx-auto px-7 w-[84vw] md:w-80 mt-8 rounded py-3 block text-center bg-black text-white" type="submit">SEND <i class="ml-2 fa-solid fa-paper-plane"></i></button>
+            
+            </form>
+        </div>
+        <div class="relative w-full h-[35vh] md:h-[60vh] bg-[url('https://apolisrises.com/wp-content/themes/apolis/assets/images/map.svg')] bg-no-repeat bg-center bg-contain bg-[#46464f]">
+            <p class="text-[#fafafa] font-semibold text-xl px-4 absolute bottom-5"><span class="text-[#e0c33a] text-3xl font-bold">Intellisoft</span> &nbsp;Locations</p>
+        </div>
+    </div>
+</Layout>

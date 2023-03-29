@@ -1,0 +1,45 @@
+---
+import logo from '../images/ilogo.png'
+---
+
+<div class="bg-black px-8 py-12">
+    <div class="flex flex-col md:flex-row max-w-[1100px] mx-auto">
+        <div class="flex-1">
+            <div class="flex">
+                <img src={logo} class="h-10" alt="Intellisosft Logo">
+                <span class="self-center text-2xl font-semibold whitespace-nowrap text-[#e0c33a]">Intellisoft</span>
+            </div>
+            <p class="text-[#f2f2f2] italic pl-1"><i class="fa-solid fa-envelope mr-1"></i>info@intellisoftus.com</p>
+            <div class="h-[2px] w-full bg-[#aaaa] mt-4 md:hidden"></div>
+        </div>
+        <div class="my-5 px-1">
+            <ul class="tracking-wide text-white md:flex md:space-x-6">
+                <li><a href="/">HOME</a></li>
+                <li><a href="/about">ABOUT US</a></li>
+                <li><a href="/services">SERVICES</a></li>
+                <li><a href="/industries">INDUSTRIES</a></li>
+                <li><a href="contact">CONTACT US</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="h-[2px] w-full bg-[#aaaa] md:mt-12 max-w-[1100px] mx-auto mb-8"></div>
+    <div class=" py-2 text-[#ccca] max-w-[1100px] mx-auto">
+        <h4 class="font-semibold mb-2 text-[#eeea]">WE PUT DIVERSITY FIRST</h4>
+        <p class="text-md mb-12">INTELLISOFT is a certified Minority Business Enterprise (MBE) and Corporate Plus member through the National Minority Supplier Development Council (NMSDC), and a member of the Supplier Clearinghouse for the Utility Supplier Diversity Program of the California Public Utilities Commission (CPUC).</p>
+
+        <div class="text-center text-white"><small>Copyright ©2023 Intellisoft Technologies. All Rights Reserved</small></div>
+    </div>
+</div>
+
+<style>
+    li {
+        margin-bottom: 8px;
+        font-size: .925rem;
+    }
+
+    @media screen and (min-width: 720px) {
+        li:hover {
+            border-bottom: 2px solid #e0c33a;
+        }
+    }
+</style>

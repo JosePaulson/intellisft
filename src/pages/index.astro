@@ -1,0 +1,119 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BgVideo from '../videos/Amtex Systems.mp4'
+import Icon1 from '../images/enterprise-apps.svg'
+import Icon2 from '../images/strategic-consulting.svg'
+import Icon3 from '../images/data-quality.svg'
+import Icon4 from '../images/oairplay.svg'
+import Icon5 from '../images/pcloud.svg'
+import Icon6 from '../images/infra-mgmt.svg'
+---
+
+<Layout title="Homepage | Intellisoft">
+	<!-- <div class="h-[100vh] bg-[url('https://indglobal.in/wp-content/uploads/2019/06/2019-06-13.webp')] bg-no-repeat bg-bottom bg-cover">
+		<div class="pt-2 md:pt-16 h-[85%] flex flex-col items-center justify-around">
+			<h3 class="text-5xl tracking-wider md:text-6xl lg:text-7xl text-white font-bold text-center leading-[3.6rem] p-2">THE CURE <br/> FOR THE <br/> COMMON JOB</h3>
+			<p class="p-2 md:px-[12vw] md:text-xl text-[#f2f2f2] text-center px-5 text-lg leading-7">
+				There’s who you are, and then there’s what you do. Somewhere, those two got
+				disconnected. You gave in to clocking in. But when you discover that place where what you do is an extension of who you are, well, then life starts to make sense. And every day starts to feel like the first day all over again.
+			</p>
+			<a href="/contact#form" class="px-7 py-2.5 mt-4 md:mt-8 font-bold text-[#e0c33a] bg-black border-2 border-[#e0c33a]">Let's Do This</a>
+		</div>
+	</div> -->
+	
+	<div class="relative">
+		<video class="w-full h-[70vh] md:h-[75vh] lg:h-[85vh] " autoplay muted loop>
+			<source src={BgVideo} type="video/mp4">
+			Your browser does not support the video tag.
+		</video>
+		<div class="absolute inset-0 bg-[#0006] flex flex-col pb-20 md:pb-24 justify-end items-start pl-[10vw]">
+			<h3 class="font-bold text-3xl sm:text-5xl lg:text-6xl text-white mb-6">Creating Bottomline <br> Impact Using Digital <br> Transformation.</h3>
+			<a href="/contact#form" class="px-7 py-2.5 mt-4 md:mt-8 font-bold text-white bg-black border-[1px] border-white ml-2">Let's Do This</a>
+		</div>
+	</div>
+	<div>
+
+	</div>
+	<div class="py-8">
+		<div class="p-5 sm:p-8">
+			<h2 class="text-[#000a] md:text-xl mb-1">OUR CAPABILITIES</h2>
+			<p class="font-semibold text-xl md:text-3xl">Empower your enterprise to grow and <br class="hidden sm:block"> differentiate against competition.</p>
+		</div>
+		<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+			<div class="m-8 border-[1px] border-[#0005] rounded px-4 py-7">
+				<img src={Icon1} alt="">
+				<h6 class="text-[#8b1824] text-lg md:text-xl mt-1">Digital Transformation</h6>
+				<ul class="text-sm md:text-base mt-5 space-y-2">
+					<li>CRM</li>
+					<li>BI Solutions</li>
+					<li>POS</li>
+					<li>HR Systems</li>
+				</ul>
+			</div>
+			<div class="m-8 border-[1px] border-[#0005] rounded px-4 py-7">
+				<img src={Icon2} alt="">
+				<h6 class="text-[#8b1824] text-lg md:text-xl mt-1">BI & Analytics</h6>
+				<ul class="text-sm md:text-base mt-5 space-y-2">
+					<li>Process Optimization</li>
+					<li>Management Consulting</li>
+					<li>Change Management</li>
+				</ul>
+			</div>
+			<div class="m-8 border-[1px] border-[#0005] rounded px-4 py-7">
+				<img src={Icon3} alt="">
+				<h6 class="text-[#8b1824] text-lg md:text-xl mt-1">Data Science & Machine Learning</h6>
+				<ul class="text-sm md:text-base mt-5 space-y-2">
+					<li>Master Data Management</li>
+					<li>Data Integration</li>
+					<li>Data Governance</li>
+					<li>Data Enrichment</li>
+				</ul>
+			</div>
+			<div class="m-8 border-[1px] border-[#0005] rounded px-4 py-7">
+				<img src={Icon4} alt="">
+				<h6 class="text-[#8b1824] text-lg md:text-xl mt-1">Product Development & Engineering</h6>
+				<ul class="text-sm md:text-base mt-5 space-y-2">
+					<li>Immersive Ux</li>
+					<li>Web & Mobile Apps</li>
+					<li>Smart Applications</li>
+					<li>Application Mordernization</li>
+				</ul>
+			</div>
+			<div class="m-8 border-[1px] border-[#0005] rounded px-4 py-7">
+				<img src={Icon5} alt="">
+				<h6 class="text-[#8b1824] text-lg md:text-xl mt-1">Cloud Services</h6>
+				<ul class="text-sm md:text-base mt-5 space-y-2">
+					<li>Cloud Migration</li>
+					<li>Infrastructure Services</li>
+					<li>Cloud Security</li>
+					<li>Data Transformation</li>
+				</ul>
+			</div>
+			<div class="m-8 border-[1px] border-[#0005] rounded px-4 py-7">
+				<img src={Icon6} alt="">
+				<h6 class="text-[#8b1824] text-lg md:text-xl mt-1">Automation Orchestration</h6>
+				<ul class="text-sm md:text-base mt-5 space-y-2">
+					<li>Infrastructure Management</li>
+					<li>Workflow Automation</li>
+					<li>Multi-Domain Services</li>
+					<li>DevOps</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<div class="bg-[#f6d839]">
+		<div class="md:h-[72vh] flex justify-center items-center flex-col px-8 md:px-12 py-16 max-w-[1200px] mx-auto text-center">
+			<h3 class="text-[#3338] text-3xl md:text-4xl font-bold">WE’RE IN THIS FOR THE LONG HAUL</h3>
+			<div class="bg-[#e0c33a] h-1 w-40 mt-4"></div>
+			<p class="text-lg md:text-xl text-[#222a] mt-8">Each and every relationship is a show of deep commitment for us. We may surprise you with our understanding and insights into your needs. Whether you’re a Fortune 500 or a humming tech start-up, we will forge an enduring, rewarding partnership with your company, based on remarkable delivery and relentless service. Call us crazy, but we love it.</p>
+			<!-- <p class="text-[1.25rem] md:text-[1.325rem] text-[#000] font-semibold mt-8">We provide solutions and leading-edge talent on a contingent, full-time and statement of work (SOW) basis, across multiple industries, including:</p> -->
+		</div>
+	</div>
+</Layout>
+
+<style>
+	video {
+		object-fit: cover;
+	}
+</style>
