@@ -1,5 +1,16 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import banking from "../images/banking-1.svg"
+import healthcare from "../images/healthcare-1.svg"
+import insurance from "../images/insurance-1.svg"
+import hospitality from "../images/travel-hospitality-1.svg"
+import market from "../images/Market research.svg"
+import retail from "../images/Retail-e-Commerce-1.svg"
+import logistics from "../images/logistics-2-hp.webp"
+import edu from "../images//edutech1.svg"
+import transport from "../images/transportation-1-hp.webp"
+import international from "../images/international-organisations-1-hp.webp"
+import rating from "../images/credit-rating.svg"
 
 ---
 
@@ -13,58 +24,58 @@ import Layout from "../layouts/Layout.astro"
     </div>
     <div class="grid md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 sm:gap-5 p-0 sm:p-8 sm:mb-12">
         <div class="sm:rounded-lg px-8 py-8 text-center sm:bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/banking-1.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={banking} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">BANKING AND FINANCIAL SERVICES</h4>
             <p class=" text-lg text-[#222a]">Growing regulatory compliances, increasing levels of business risk, disruption of traditional business models enabled by technology, and rising customer expectations pose formidable threats to traditional way of banking. Consumers are now driving the way businesses are operated and banking and financial services sector is no exception to that.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/healthcare-1.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={healthcare} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">HEALTHCARE</h4>
             <p class=" text-lg text-[#222a]">Care management or payer logistics, revenue cycle management or claims processing, eligibility verification or billing and payments, no matter how complex your healthcare processes, Intellisoft efficiently and seamlessly manages these operations allowing you to focus on your core - delivering an exceptional patient experience.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center sm:bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/insurance-1.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={insurance} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">INSURANCE</h4>
             <p class=" text-lg text-[#222a]">Intellisoft enables its institutional customers to strategically integrate statutory compliance checks in their day-to-day processes and take corrective and preventive actions to curb fraud and money laundering activities in the wider ecosystem. The RPA, NLP, and AI / ML powered checks integrated throughout the insurance digital transformation pathway ensure that fraud and money laundering are eliminated from the insurance processing lifecycle.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/travel-hospitality-1.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={hospitality} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">TRAVEL & HOSPITALITY</h4>
             <p class=" text-lg text-[#222a]">The travel and hospitality industry is being constantly disrupted by new digital technologies and newer business models – be it community-based online platforms for renting local homes or ride-share apps in the car rental space. Enterprises are increasingly using digital technologies to get better market and business intelligence, develop a deeper understanding of customers and their behavior, and price their products and services competitively.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center sm:bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/Market research.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={market} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">MARKET RESEARCH</h4>
             <p class=" text-lg text-[#222a]">Market Research is going through a tremendous technology-driven transformation. This change brings forth a problem of plenty for both Brands and Research Agencies. Defining the problem, identifying the right answer, implementing the right technology solutions for gathering and disseminating customer data, and ultimately deriving actionable insights. All these challenges have been amplified considering the plethora of choices when it comes to finding the right solutions.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/Retail-e-Commerce-1.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={retail} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-2xl mb-4">RETAIL</h4>
             <p class=" text-lg text-[#222a]">Omnichannel is the new buzzword as retailers seek to offer a seamless shopping experience across multiple formats and stores – physical, kiosk, online and mobile apps. Intellisoft’s state-of-the-art retail and digital marketplace solutions help companies unify the customer experience regardless of the touchpoint.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center sm:bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/transportation-1-hp.webp" class="w-1/2 lg:w-2/3" alt="">
+            <img src={transport} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">TRANSPORTATION</h4>
             <p class=" text-lg text-[#222a]">
                 Transportation keeps cities and people on the move. Efficient public transit support systems are critical for economies to thrive and grow. Be it using data to allocate infrastructure spends, smart technologies to collect tolls, internet of things to take corrective and preventive actions, or analytics-based intelligent routing to ease decongestion, Smart Cities are increasingly using digital technologies to develop transportation solutions.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/logistics-2-hp.webp" class="w-1/2 lg:w-2/3" alt="">
+            <img src={logistics} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">MANUFACTURING & LOGISTICS</h4>
             <p class=" text-lg text-[#222a]">Intellisoft helps manufacturing companies adopt smart and effective IT & BPM strategies across the manufacturing supply chain and logistics, right from real-time monitoring to auditing at all touch points. The solutions powered by robotics process automation, big data & business intelligence, predictive analytics, intelligent workflow, and document management enable clients to bring in greater operational efficiency, rationalize costs, speed time-to-market, and create better products.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center sm:bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/edutech1.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={edu} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">EDUCATION AND TECHNOLOGY</h4>
             <p class=" text-lg text-[#222a]">According to recent research, the global education technology industry is anticipated to grow at a CAGR of 18.1% from 2020 to 2027. Hence, strategically built digital learning tools that fuel information literacy, identity management, and technological awareness amongst students and teachers are imperative to democratization, sustainability, and prominence of digital education, even through unprecedented times.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/international-organisations-1-hp.webp" class="w-1/2 lg:w-2/3" alt="">
+            <img src={international} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">INTERNATIONAL ORGANIZATIONS</h4>
             <p class=" text-lg text-[#222a]">Intellisoft solutions span across Administrative IT, Program Delivery, Innovation and Digital Transformation needs. Sustainable Development Goals (SDGs) form the core of Datamatics’ service offerings and the projects delivered by Intellisoft reflect the vision of UN and International Organizations.</p>
         </div>
         <div class="sm:rounded-lg px-8 py-8 text-center sm:bg-[#f6d839] shadow-lg sm:border-[4px] border-[#e0aa3a] flex flex-col items-center">
-            <img src="/src/images/credit-rating.svg" class="w-1/2 lg:w-2/3" alt="">
+            <img src={rating} class="w-1/2 lg:w-2/3" alt="">
             <h4 class="text-[#222] font-semibold text-xl md:text-2xl mb-4">CREDIT RATING</h4>
             <p class=" text-lg text-[#222a]">In a dynamic environment, credit rating agencies have to assess the creditworthiness of tens and hundreds of business entities and individuals on a daily basis. These assessments form the basis of monetary exchanges and act as important catalysts during business transactions within countries and across geographical borders</p>
         </div>

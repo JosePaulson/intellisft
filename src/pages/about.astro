@@ -1,5 +1,10 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import Star from "../images/vstar.svg"
+import User from "../images/3user (1).svg"
+import Location from "../images/vlocation.svg"
+import Calander from "../images/vcalendar.svg"
+
 
 
 ---
@@ -22,22 +27,22 @@ import Layout from "../layouts/Layout.astro"
         </div>
         <div class="grid grid-cols-2 flex-1 gap-5 p-8">
             <div class="bg-[#fff6] rounded px-8 py-5 md:py-8 text-center flex-col flex gap-3 sm:gap-5">
-                <img class="h-8 md:h-10" src="/src/images/vcalendar.svg" alt="">
+                <img class="h-8 md:h-10" src={Calander} alt="">
                 <p class="text-black md:text-xl font-semibold">25+ Years</p>
                 <p class="text-[#e0aa3a] text-sm">Years Of S    uccess</p>
             </div>
             <div class="bg-[#fff6] rounded px-8 py-5 md:py-8 text-center flex-col flex gap-3 sm:gap-5">
-                <img class="h-8 md:h-10" src="/src/images/vlocation.svg" alt="">
+                <img class="h-8 md:h-10" src={Location} alt="">
                 <p class="text-black md:text-xl font-semibold">10 Cities</p>
                 <p class="text-[#e0aa3a] text-sm">Global Presence</p>
             </div>
             <div class="bg-[#fff6] rounded px-8 py-5 md:py-8 text-center flex-col flex gap-3 sm:gap-5">
-                <img class="h-8 md:h-10" src="/src/images/3user (1).svg" alt="">
+                <img class="h-8 md:h-10" src={User} alt="">
                 <p class="text-black md:text-xl font-semibold">1500+</p>
                 <p class="text-[#e0aa3a] text-sm">Professionals</p>
             </div>
             <div class="bg-[#fff6] rounded px-8 py-5 md:py-8 text-center flex-col flex gap-3 sm:gap-5">
-                <img class="h-8 md:h-10" src="/src/images/vstar.svg" alt="">
+                <img class="h-8 md:h-10" src={Star} alt="">
                 <p class="text-black md:text-xl font-semibold">250+</p>
                 <p class="text-[#e0aa3a] text-sm">Global Clients</p>
             </div>

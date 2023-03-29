@@ -1,168 +1,175 @@
 ---
 import Layout from "../layouts/Layout.astro"
+import s1 from '../images/s1.png'
+import s3 from '../images/s3.png'
+import s5 from '../images/s5.png'
+import s6 from '../images/s6.png'
+import s7 from '../images/s7.png'
+import s21 from '../images/s21.png'
+import s22 from '../images/s22.png'
+import s23 from '../images/s23.png'
+import s26 from '../images/s26.png'
+import s29 from '../images/s29.png'
+import s31 from '../images/s31.png'
+import s32 from '../images/s32.png'
+import s33 from '../images/s33.png'
+import s35 from '../images/s35.png'
+import s36 from '../images/s36.png'
+import s41 from '../images/s41.png'
+import s42 from '../images/s42.png'
+import s43 from '../images/s43.png'
+import s45 from '../images/s45.png'
+import s49 from '../images/s49.png'
 ---
 
 <Layout title="Serivices | Intellisoft">
-    
-<div id="controls-carousel" class="relative w-full" data-carousel="slide">
-    <!-- Carousel wrapper -->
-    <div class="relative h-56 overflow-hidden md:h-[65vh] bg-[#000]">
-         <!-- Item 1 -->
-        <div class="hidden duration-[1200ms] ease-in-out" data-carousel-item>
-            <img src="/src/images/image1.jpg" class="opacity-70 absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 2 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item="active">
-            <img src="/src/images/image2.jpg" class="opacity-70 absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <!-- Item 3 -->
-        <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="/src/images/image3.jpg" class="opacity-70 absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
-        </div>
-        <div class="absolute inset-0 z-30 flex items-end justify-center md:hidden">
-            <div>
-                <h2 class="text-center text-3xl md:text-4xl text-[#fff] mt-7 sm:mt-16 font-bold">SERVICES</h2>
-                <div class="bg-[#e0aa3a] h-2 w-32 mx-auto mb-8"></div>
+    <div class="h-[60vh] md:h-[70vh] bg-[url('/src/images/services-bg.jpg')] bg-[#0003] bg-blend-darken bg-cover bg-center">
+    </div>
+    <!-- <div class="relative w-full">
+        <div class="relative h-56 md:h-[65vh] bg-[#000]">
+            <img src={ServicesBg} class="opacity-70 absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <div class="absolute inset-0 z-30 flex items-end justify-center md:hidden">
+                <div>
+                    <h2 class="text-center text-3xl md:text-4xl text-[#fff] mt-7 sm:mt-16 font-bold">SERVICES</h2>
+                    <div class="bg-[#e0aa3a] h-2 w-32 mx-auto mb-8"></div>
+                </div>
             </div>
-        </div>
-    </div> 
-</div>
-<div class="hidden md:block">
-    <h2 class="text-center text-3xl md:text-4xl text-[#333] mt-7 sm:mt-16 font-bold">SERVICES</h2>
-    <div class="bg-[#e0aa3a] h-2 w-32 mx-auto mb-8"></div>
-</div>
-<div class="">
-    <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden bg-[#fff9]">
-        <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/digitaltrans.jpg')] bg-cover bg-no-repeat bg-center]"></div>
-        <div class="bg-[#fff] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-l-4 border-black">
-            <div class="">
-                <h4 class="text-2xl font-semibold text-[#000] mb-4">Digital Transformation</h4>
-                <p class="text-lg font-thin">Accelerating transformation for new-age enterprises, we help businesses turn disruption into growth through our development capabilities in AI, automation, blockchain, and data analytics software and solutions.</p>
-            </div>
-            <div>
-                <div class="flex items-center mt-8 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s1.png" alt="">
-                    <p>ENTERPRISE MOBILITY</p>
+        </div> 
+    </div> -->
+    <div class="">
+        <h2 class="text-center text-3xl md:text-4xl text-[#333] mt-7 sm:mt-16 font-bold">SERVICES</h2>
+        <div class="bg-[#e0aa3a] h-2 w-32 mx-auto mb-8"></div>
+    </div>
+    <div class="">
+        <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden bg-[#fff9]">
+            <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/digitaltrans.jpg')] bg-cover bg-no-repeat bg-center]"></div>
+            <div class="bg-[#fff] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-l-4 border-black">
+                <div class="">
+                    <h4 class="text-2xl font-semibold text-[#000] mb-4">Digital Transformation</h4>
+                    <p class="text-lg font-thin">Accelerating transformation for new-age enterprises, we help businesses turn disruption into growth through our development capabilities in AI, automation, blockchain, and data analytics software and solutions.</p>
                 </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s3.png" alt="">
-                    <p>BLOCKCHAIN</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s5.png" alt="">
-                    <p>ARTIFICIAL INTELLIGENCE</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s6.png" alt="">
-                    <p>DATA SCIENCE</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s7.png" alt="">
-                    <p>ROBOTICS</p>
+                <div>
+                    <div class="flex items-center mt-8 gap-1">
+                        <img class="w-10 h-10" src={s1} alt="">
+                        <p>ENTERPRISE MOBILITY</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s3} alt="">
+                        <p>BLOCKCHAIN</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s5} alt="">
+                        <p>ARTIFICIAL INTELLIGENCE</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s6} alt="">
+                        <p>DATA SCIENCE</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s7} alt="">
+                        <p>ROBOTICS</p>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="md:mt-16">
-    <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden">
-        <div class="bg-[#f6d839] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-r-4 border-black">
-            <div class="">
-                <h4 class="text-2xl font-semibold text-[#000] mb-4">Enterprise Solutions</h4>
-                <p class="text-lg font-thin">Leverage enterprise applications developed on Microsoft, Salesforce, SAP, and emerging technologies to boost time-to-market and productivity.</p>
+    <div class="md:mt-16">
+        <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden">
+            <div class="bg-[#f6d839] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-r-4 border-black">
+                <div class="">
+                    <h4 class="text-2xl font-semibold text-[#000] mb-4">Enterprise Solutions</h4>
+                    <p class="text-lg font-thin">Leverage enterprise applications developed on Microsoft, Salesforce, SAP, and emerging technologies to boost time-to-market and productivity.</p>
+                </div>
+                <div>
+                    <div class="flex items-center mt-8 gap-1">
+                        <img class="w-10 h-10" src={s21} alt="">
+                        <p>MICROSOFT</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s22} alt="">
+                        <p>SALESFORCE</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s23} alt="">
+                        <p>CLOUD</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s26} alt="">
+                        <p>MS AZURE</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s29} alt="">
+                        <p>AWS SOLUTIONS</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <div class="flex items-center mt-8 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s21.png" alt="">
-                    <p>MICROSOFT</p>
+            <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/enterprise.jpg')] bg-cover bg-no-repeat bg-center]"></div>
+        </div>
+    </div>
+    <div class="md:mt-16">
+        <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden bg-[#fff9]">
+            <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/producteng.jpg')] bg-cover bg-no-repeat bg-center]"></div>
+            <div class="bg-[#fff] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-l-4 border-black">
+                <div class="">
+                    <h4 class="text-2xl font-semibold text-[#000] mb-4">Product Engineerings</h4>
+                    <p class="text-lg font-thin">Unlock new business opportunities and manage enterprise growth by designing, delivering, and deploying product engineering solutions ranging from architecture design to product modernization and legacy migration.</p>
                 </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s22.png" alt="">
-                    <p>SALESFORCE</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s23.png" alt="">
-                    <p>CLOUD</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s26.png" alt="">
-                    <p>MS AZURE</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s29.png" alt="">
-                    <p>AWS SOLUTIONS</p>
+                <div>
+                    <div class="flex items-center mt-8 gap-1">
+                        <img class="w-10 h-10" src={s31} alt="">
+                        <p>PRODUCT DEVELOPMENT</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s32} alt="">
+                        <p>ARCHITECTURE & DESIGN</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s33} alt="">
+                        <p>APPLICATION MODERNIZATION</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s35} alt="">
+                        <p>LEGACY SYSTEM MIGRATION</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s36} alt="">
+                        <p>QA & TESTING</p>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/enterprise.jpg')] bg-cover bg-no-repeat bg-center]"></div>
     </div>
-</div>
-<div class="md:mt-16">
-    <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden bg-[#fff9]">
-        <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/producteng.jpg')] bg-cover bg-no-repeat bg-center]"></div>
-        <div class="bg-[#fff] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-l-4 border-black">
-            <div class="">
-                <h4 class="text-2xl font-semibold text-[#000] mb-4">Product Engineerings</h4>
-                <p class="text-lg font-thin">Unlock new business opportunities and manage enterprise growth by designing, delivering, and deploying product engineering solutions ranging from architecture design to product modernization and legacy migration.</p>
+    <div class="md:mt-16 md:mb-20">
+        <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden bg-[#fff9]">
+            <div class="bg-[#f6d839] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-r-4 border-black">
+                <div class="">
+                    <h4 class="text-2xl font-semibold text-[#000] mb-4">Consulting</h4>
+                    <p class="text-lg font-thin">Boost business growth and digital value with our consulting expertise in Agile & DevOps, technology outsourcing, and business automation.</p>
+                </div>
+                <div>
+                    <div class="flex items-center mt-8 gap-1">
+                        <img class="w-10 h-10" src={s41} alt="">
+                        <p>CLOUD CONSULTING</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s42} alt="">
+                        <p>AGILE & DEVOPS</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s43} alt="">
+                        <p>IT OUTSOURCING</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s45} alt="">
+                        <p>STAFF AUGMENTATION</p>
+                    </div>
+                    <div class="flex items-center mt-4 gap-1">
+                        <img class="w-10 h-10" src={s49} alt="">
+                        <p>BUSINESS CONSULTING</p>
+                    </div>
+                </div>
             </div>
-            <div>
-                <div class="flex items-center mt-8 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s31.png" alt="">
-                    <p>PRODUCT DEVELOPMENT</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s32.png" alt="">
-                    <p>ARCHITECTURE & DESIGN</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s33.png" alt="">
-                    <p>APPLICATION MODERNIZATION</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s35.png" alt="">
-                    <p>LEGACY SYSTEM MIGRATION</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s36.png" alt="">
-                    <p>QA & TESTING</p>
-                </div>
-            </div>
+            <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/consulting.jpg')] bg-cover bg-no-repeat bg-center]"></div>
         </div>
     </div>
-</div>
-<div class="md:mt-16 md:mb-20">
-    <div class="flex flex-col md:flex-row md:w-[90%] mx-auto md:rounded-lg overflow-hidden bg-[#fff9]">
-        <div class="bg-[#f6d839] md:w-1/2 px-8 py-8 sm:px-12 sm:py-16 md:border-r-4 border-black">
-            <div class="">
-                <h4 class="text-2xl font-semibold text-[#000] mb-4">Consulting</h4>
-                <p class="text-lg font-thin">Boost business growth and digital value with our consulting expertise in Agile & DevOps, technology outsourcing, and business automation.</p>
-            </div>
-            <div>
-                <div class="flex items-center mt-8 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s41.png" alt="">
-                    <p>CLOUD CONSULTING</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s42.png" alt="">
-                    <p>AGILE & DEVOPS</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s43.png" alt="">
-                    <p>IT OUTSOURCING</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s45.png" alt="">
-                    <p>STAFF AUGMENTATION</p>
-                </div>
-                <div class="flex items-center mt-4 gap-1">
-                    <img class="w-10 h-10" src="/src/images/s49.png" alt="">
-                    <p>BUSINESS CONSULTING</p>
-                </div>
-            </div>
-        </div>
-        <div class="md:w-1/2 bg-[#0003] bg-blend-darken bg-[url('/src/images/consulting.jpg')] bg-cover bg-no-repeat bg-center]"></div>
-    </div>
-</div>
-
-
 </Layout>
